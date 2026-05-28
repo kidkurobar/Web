@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #E63022;
+  --orange: #F97316;
+}
+
+body {
+  font-family: 'Sarabun', sans-serif;
+  background-color: #F5F5F5;
+  color: #1F1F1F;
+}
+
+.btn-primary {
+  @apply bg-[#E63022] text-white rounded-full px-6 py-2.5 font-semibold hover:bg-red-700 transition-colors;
+}
+
+.btn-outline {
+  @apply border-2 border-white text-white rounded-full px-6 py-2.5 font-semibold hover:bg-white hover:text-[#E63022] transition-colors;
+}
+
+.product-card {
+  @apply bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-md transition-shadow;
+}
