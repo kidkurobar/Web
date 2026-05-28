@@ -1,5 +1,5 @@
 import ContactSection from '../components/ContactSection'
-import { processSteps } from '../data/products'
+import { processSteps } from '../data'
 import { ArrowRight } from 'lucide-react'
 
 export default function Process() {

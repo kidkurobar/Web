@@ -1,5 +1,5 @@
 import ProductCard from '../components/ProductCard'
-import { products } from '../data/products'
+import { products } from '../data'
 
 export default function Products() {
   return (

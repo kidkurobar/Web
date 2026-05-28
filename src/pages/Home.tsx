@@ -2,7 +2,7 @@ import { Link } from 'wouter'
 import { ShieldCheck, Zap, Clock } from 'lucide-react'
 import ProductCard from '../components/ProductCard'
 import ContactSection from '../components/ContactSection'
-import { products } from '../data/products'
+import { products } from '../data'
 
 export default function Home() {
   return (

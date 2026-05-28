@@ -1,7 +1,7 @@
 import { Link, useParams } from 'wouter'
 import { ArrowLeft, MessageCircle, Package } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
-import { products } from '../data/products'
+import { products } from '../data'
 
 export default function ProductDetail() {
   const { slug } = useParams()
