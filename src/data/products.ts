@@ -20,7 +20,7 @@ export const products: Product[] = [
     description: 'ถุงผ้าสปันบอนด์พิมพ์โลโก้ สินค้าพรีเมียม เหมาะสำหรับของขวัญและโปรโมชั่น',
     cta: 'ดูแคตตาล็อก',
     ctaType: 'catalog',
-    image: '/images/spunbond-bag.jpg',
+    image: '/images/spunbond_bags_showcase_hero.png',
     stats: [
       { value: '50+', label: 'แบบสินค้า', desc: 'ถุงสปันบอนด์หลากหลายขนาดและสีให้เลือก' },
       { value: '100', label: 'ชิ้นขั้นต่ำ', desc: 'ขั้นต่ำในการผลิตน้อย เหมาะสำหรับธุรกิจเล็กและกลาง' },
@@ -35,7 +35,7 @@ export const products: Product[] = [
     description: 'แก้วน้ำพิมพ์โลโก้ คุณภาพสูง เหมาะสำหรับของขวัญและโปรโมชั่นของบริษัท',
     cta: 'สอบถามเพิ่มเติม',
     ctaType: 'inquiry',
-    image: '/images/tumbler.jpg',
+    image: '/images/tumbler_showcase_hero.png',
     stats: [
       { value: '80+', label: 'แบบสินค้า', desc: 'แก้วน้ำหลากหลายแบบ ทั้ง Tumbler และ Mug' },
       { value: '50', label: 'ชิ้นขั้นต่ำ', desc: 'ขั้นต่ำในการผลิตน้อย เหมาะสำหรับธุรกิจทุกขนาด' },
@@ -50,16 +50,16 @@ export const products: Product[] = [
     description: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์',
     cta: 'ดูแคตตาล็อก',
     ctaType: 'catalog',
-    image: '/images/pen.jpg',
+    image: '/images/pen_showcase_hero.png',
     stats: [
       { value: '100+', label: 'แบบสินค้า', desc: 'ปากกาหลากหลายแบบให้เลือก ตั้งแต่ไม้ธรรมชาติถึงโลหะหรูหรา' },
       { value: '50', label: 'ชิ้นขั้นต่ำ', desc: 'ขั้นต่ำในการผลิตน้อย เหมาะสำหรับธุรกิจเล็กและกลาง' },
       { value: '7-14', label: 'วันส่งมอบ', desc: 'ผลิตและส่งมอบอย่างรวดเร็ว พร้อมตรวจสอบคุณภาพ' },
     ],
     variants: [
-      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen-1.jpg' },
-      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen-2.jpg' },
-      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen-3.jpg' },
+      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen_showcase_hero.png' },
+      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen_showcase_hero.png' },
+      { name: 'ปากกาพิมพ์โลโก้', desc: 'ปากกาพิมพ์โลโก้แบรนด์ เหมาะสำหรับเป็นของที่ระลึก พร้อมพื้นที่สำหรับพิมพ์โลโก้ข้อความของแบรนด์ ขั้นต่ำ...', image: '/images/pen_showcase_hero.png' },
     ],
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     description: 'ถุงกระดาษพิมพ์โลโก้ ออกแบบตามต้องการ สินค้าเป็นมิตรต่อสิ่งแวดล้อม',
     cta: 'สอบถามเพิ่มเติม',
     ctaType: 'inquiry',
-    image: '/images/paper-bag.jpg',
+    image: '/images/paper_bags_showcase_hero.png',
   },
   {
     id: '5',
@@ -80,7 +80,7 @@ export const products: Product[] = [
     description: 'การ์ด NFC พิมพ์โลโก้ เทคโนโลยีสมัยใหม่ สำหรับการติดต่อและการตลาด',
     cta: 'สอบถามเพิ่มเติม',
     ctaType: 'inquiry',
-    image: '/images/nfc-card.jpg',
+    image: '/images/nfc_cards_showcase_hero.png',
   },
   {
     id: '6',
@@ -90,7 +90,7 @@ export const products: Product[] = [
     description: 'สินค้าพิมพ์โลโก้อื่นๆ ตามความต้องการของคุณ ติดต่อเราเพื่อปรึกษา',
     cta: 'สอบถามเพิ่มเติม',
     ctaType: 'inquiry',
-    image: '/images/other.jpg',
+    image: '/images/merchandise_showcase_hero.png',
   },
 ]
 
