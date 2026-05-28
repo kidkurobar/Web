@@ -11,20 +11,11 @@ export default function ProductCard({ product }: Props) {
     <div className="product-card">
       {/* Image */}
       <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
-        {product.image ? (
-          <img
-            src={product.image}
-            alt={product.name}
-            className="w-full h-full object-cover"
-            onError={(e) => {
-              (e.target as HTMLImageElement).style.display = 'none'
-            }}
-          />
-        ) : (
-          <div className="w-full h-full flex items-center justify-center text-gray-300">
-            <Package size={48} />
-          </div>
-        )}
+        <img
+          src={product.image}
+          alt={product.name}
+          className="w-full h-full object-cover"
+        />
       </div>
 
       {/* Content */}
