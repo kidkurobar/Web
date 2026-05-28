@@ -51,9 +51,11 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
-              { icon: <ShieldCheck size={32} className="text-[#E63022]" />, title: 'เทคโนโลยีการผลิตคุณภาพสูง', desc: 'สินค้าพิมพ์โลโก้ทุกชิ้นผ่านการขึ้นงานแบบ ส่งให้ลูกค้าตรวจสอบความถูกต้องก่อนผลิต QC คุณภาพก่อนส่งมอบ รับประกันคุณภาพ', note: null },
+              { icon: <ShieldCheck size={32} className="text-[#E63022]" />, title: 'เทคโนโลยีการผลิตคุณภาพสูง', desc: 'สินค้าพิมพ์โลโก้ทุกชิ้นผ่านการขึ้นงานแบบ ส่งให้ลูกค้าตรวจสอบความถูกต้องก่อนผลิต QC คุณภาพก่อนส่งมอบ 
+                รับประกันคุณภาพ', note: null },
               { icon: <Zap size={32} className="text-[#F97316]" />, title: 'ขั้นต่ำน้อย เริ่มต้นที่ 50 ชิ้น', desc: 'รับผลิตสินค้าพิมพ์โลโก้ตั้งแต่ 50 ชิ้น เหมาะสำหรับ SME และ Event organizer', note: '*จำนวนขั้นต่ำการผลิตขึ้นอยู่กับประเภทสินค้า' },
-              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'จัดส่งรวดเร็ว', desc: 'ผลิตและจัดส่งสินค้าพิมพ์โลโก้ภายใน 14-21 วัน อัปเดตสถานะทุกขั้นตอน', note: '*ระยะเวลาการผลิตขึ้นอยู่กับประเภทสินค้า' },
+              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'จัดส่งรวดเร็ว', desc: 'ผลิตและจัดส่งสินค้าพิมพ์โลโก้ภายใน 14-21 วัน 
+            อัปเดตสถานะทุกขั้นตอน', note: '*ระยะเวลาการผลิตขึ้นอยู่กับประเภทสินค้า' },
             ].map((item) => (
               <div key={item.title} className="p-6">
                 <div className="flex justify-center mb-4">{item.icon}</div>
