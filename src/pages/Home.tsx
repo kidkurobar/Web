@@ -29,7 +29,7 @@ export default function Home() {
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-md overflow-hidden aspect-square">
               <img
-                src="/images/hero.jpg"
+                src="/images/hero-merchandise-showcase.png"
                 alt="Sourcing8 Products"
                 className="w-full h-full object-cover"
                 onError={(e) => {
