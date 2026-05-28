@@ -52,8 +52,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
               { icon: <ShieldCheck size={32} className="text-[#E63022]" />, title: 'คุณภาพสูง', desc: 'ทุกชิ้นงานผ่านการตรวจสอบคุณภาพก่อนส่งมอบ' },
-              { icon: <Zap size={32} className="text-[#F97316]" />, title: 'MOQ น้อย', desc: 'สั่งผลิตได้ตั้งแต่ 50 ชิ้น เหมาะสำหรับธุรกิจทุกขนาด' },
-              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'รวดเร็ว', desc: 'ส่งมอบภายใน 7-14 วัน พร้อมอัปเดตทุกขั้นตอน' },
+              { icon: <Zap size={32} className="text-[#F97316]" />, title: 'ขั้นต่ำน้อย', desc: 'สั่งผลิตได้ตั้งแต่ 50 ชิ้น เหมาะสำหรับธุรกิจทุกขนาด' },
+              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'รวดเร็ว', desc: 'ส่งมอบภายใน 14-21 วัน พร้อมอัปเดตทุกขั้นตอน' },
             ].map((item) => (
               <div key={item.title} className="p-6">
                 <div className="flex justify-center mb-4">{item.icon}</div>
