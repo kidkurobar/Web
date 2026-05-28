@@ -1,11 +1,11 @@
 export type { Product, ProductVariant, ProductStat } from './types'
 
-import spunbondBag from './products/spunbond-bag'
-import tumbler from './products/tumbler'
-import pen from './products/pen'
-import paperBag from './products/paper-bag'
-import nfcCard from './products/nfc-card'
-import other from './products/other'
+import spunbondBag from './spunbond-bag'
+import tumbler from './tumbler'
+import pen from './pen'
+import paperBag from './paper-bag'
+import nfcCard from './nfc-card'
+import other from './other'
 
 export const products = [spunbondBag, tumbler, pen, paperBag, nfcCard, other]
 

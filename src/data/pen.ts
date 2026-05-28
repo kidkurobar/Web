@@ -1,4 +1,4 @@
-import type { Product } from '../types'
+import type { Product } from './types'
 
 const pen: Product = {
   id: '3',
