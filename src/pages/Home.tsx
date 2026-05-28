@@ -13,7 +13,7 @@ export default function Home() {
           <div>
             <p className="text-[#E63022] font-semibold mb-2">ยินดีต้อนรับสู่</p>
             <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-3">Sourcing8</h1>
-            <p className="text-xl font-bold text-[#F97316] mb-6">Everything You Need</p>
+            <p className="text-xl font-bold text-[#F97316] mb-6">สินค้าพิมพ์โลโก้แบรนด์ ขั้นต่ำน้อย เริ่มต้นที่ 50 ชิ้น</p>
             <p className="text-gray-600 leading-relaxed mb-8 max-w-md">
               ต้องการสินค้าพิมพ์โลโก้ที่มีคุณภาพ แต่ไม่อยากสั่งจำนวนมาก?
               เรามีคำตอบให้คุณ เราผลิตสินค้าพรีเมียมตั้งแต่จำนวนน้อย
@@ -52,8 +52,8 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
               { icon: <ShieldCheck size={32} className="text-[#E63022]" />, title: 'คุณภาพสูง', desc: 'ทุกชิ้นงานผ่านการตรวจสอบคุณภาพก่อนส่งมอบ' },
-              { icon: <Zap size={32} className="text-[#F97316]" />, title: 'ขั้นต่ำน้อย', desc: 'สั่งผลิตได้ตั้งแต่ 50 ชิ้น เหมาะสำหรับธุรกิจทุกขนาด' },
-              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'รวดเร็ว', desc: 'ส่งมอบภายใน 14-21 วัน พร้อมอัปเดตทุกขั้นตอน' },
+              { icon: <Zap size={32} className="text-[#F97316]" />, title: 'MOQ น้อย', desc: 'สั่งผลิตได้ตั้งแต่ 50 ชิ้น เหมาะสำหรับธุรกิจทุกขนาด' },
+              { icon: <Clock size={32} className="text-[#E63022]" />, title: 'รวดเร็ว', desc: 'ส่งมอบภายใน 7-14 วัน พร้อมอัปเดตทุกขั้นตอน' },
             ].map((item) => (
               <div key={item.title} className="p-6">
                 <div className="flex justify-center mb-4">{item.icon}</div>
