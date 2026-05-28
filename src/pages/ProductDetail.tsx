@@ -47,21 +47,17 @@ export default function ProductDetail() {
         </div>
       </section>
 
-      {/* Variants */}
       {product.variants && (
         <section className="py-10 bg-[#F5F5F5]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-3 gap-6">
-              {product.variants.map((v, i) => (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {product.variants.slice(0, 21).map((v, i) => (
                 <div key={i} className="product-card">
-                  <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+                  <div className="aspect-square bg-gray-100 overflow-hidden">
                     <img
                       src={v.image}
                       alt={v.name}
                       className="w-full h-full object-cover"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).style.display = 'none'
-                      }}
                     />
                   </div>
                   <div className="p-5">
