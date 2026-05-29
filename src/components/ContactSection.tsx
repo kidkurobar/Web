@@ -8,7 +8,7 @@ export default function ContactSection() {
         <p className="text-white/90 mb-8">ติดต่อเราเพื่อรับคำปรึกษาฟรีและใบเสนอราคา</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://line.me/YOUR_LINE_ID"
+            href="https://line.me/ti/p/@389xbjxh"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-outline flex items-center justify-center gap-2"
@@ -17,7 +17,7 @@ export default function ContactSection() {
             Line
           </a>
           <a
-            href="tel:+66XXXXXXXXX"
+            href="tel:0906926642"
             className="btn-outline flex items-center justify-center gap-2"
           >
             <Phone size={18} />

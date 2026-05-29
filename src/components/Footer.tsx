@@ -37,11 +37,11 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center gap-2">
                 <Phone size={14} />
-                <span>+66 XX-XXXX-XXXX</span>
+                <span>090-6926642</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} />
-                <span>info@sourcing8.com</span>
+                <span>sourcing8.in.th@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -50,8 +50,8 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-3">ติดตามเรา</h4>
             <div className="flex gap-4 text-sm">
-              <a href="#" className="hover:text-white transition-colors">Facebook</a>
-              <a href="#" className="hover:text-white transition-colors">Line</a>
+              <a href="https://www.facebook.com/sourcing8.in.th/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Facebook</a>
+              <a href="https://line.me/ti/p/@389xbjxh" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Line</a>
             </div>
           </div>
         </div>
