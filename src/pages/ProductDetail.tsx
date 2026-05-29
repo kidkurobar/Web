@@ -1,5 +1,5 @@
 import { Link, useParams } from 'wouter'
-import { ArrowLeft, MessageCircle, Package } from 'lucide-react'
+import { ArrowLeft, MessageCircle, Package, Phone } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
 import { products } from '../data'
 
