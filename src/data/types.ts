@@ -14,6 +14,8 @@ export interface Product {
   id: string
   slug: string
   name: string
+  pageTitle?: string
+  pageSubtitle?: string
   description: string
   shortDesc: string
   cta: string
