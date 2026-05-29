@@ -36,12 +36,11 @@ export default function ProductDetail() {
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-extrabold text-center mb-3">
-            {product.name === 'ปากกาสกรีนโลโก้แบรนด์' ? 'ปากกาพรีเมียมสำหรับแบรนด์ของคุณ' : product.name}
+            {product.pageTitle || product.name}
           </h2>
-          {product.name === 'ปากกา' && (
+          {product.pageSubtitle && (
             <p className="text-center text-gray-500 max-w-xl mx-auto">
-              เลือกจากปากกาหลากหลายแบบ ทั้งกระดาษสีน้ำตาล ปากกาพลาสติกทั่วไป และแบบโลหะหรูหรา
-              พร้อมพิมพ์โลโก้และข้อความของคุณ
+              {product.pageSubtitle}
             </p>
           )}
         </div>
