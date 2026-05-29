@@ -101,9 +101,9 @@ export default function ProductDetail() {
           <p className="text-gray-500 mb-8">ติดต่อเราเพื่อสอบถามราคา ขั้นต่ำการผลิต และข้อมูลเพิ่มเติม</p>
           <div className="grid md:grid-cols-3 gap-4">
             {[
-              { label: 'Line', sub: 'YOUR_LINE_ID', icon: <MessageCircle size={20} className="text-[#E63022]" /> },
-              { label: 'Messenger', sub: 'YOUR_MESSENGER_ID', icon: <MessageCircle size={20} className="text-[#E63022]" /> },
-              { label: 'โทรศัพท์', sub: '+66XXXXXXXXX', icon: <Package size={20} className="text-[#E63022]" /> },
+              { label: 'Line', sub: '@389xbjxh', icon: <MessageCircle size={20} className="text-[#E63022]" /> },
+              { label: 'Facebook', sub: 'sourcing8.in.th', icon: <MessageCircle size={20} className="text-[#E63022]" /> },
+              { label: 'โทรศัพท์', sub: '090-6926642', icon: <Package size={20} className="text-[#E63022]" /> },
             ].map((c) => (
               <div key={c.label} className="bg-[#F5F5F5] rounded-xl p-5 text-center">
                 <div className="flex justify-center mb-2">{c.icon}</div>
