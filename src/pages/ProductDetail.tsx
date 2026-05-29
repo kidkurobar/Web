@@ -118,7 +118,6 @@ export default function ProductDetail() {
               </a>
             ))}
           </div>
-          </div>
         </div>
       </section>
 
