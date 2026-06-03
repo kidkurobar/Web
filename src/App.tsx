@@ -7,6 +7,7 @@ import Products from './pages/Products'
 import ProductDetail from './pages/ProductDetail'
 import Process from './pages/Process'
 import Contact from './pages/Contact'
+import Showcase from './pages/Showcase'
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/products/:slug" component={ProductDetail} />
           <Route path="/process" component={Process} />
           <Route path="/contact" component={Contact} />
+          <Route path="/showcase" component={Showcase} />
         </Switch>
       </main>
       <Footer />
