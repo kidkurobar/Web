@@ -2,6 +2,7 @@ import { Link } from 'wouter'
 import { ShieldCheck, Zap, Clock } from 'lucide-react'
 import ProductCard from '../components/ProductCard'
 import ContactSection from '../components/ContactSection'
+import ShowcaseBanner from '../components/ShowcaseBanner'
 import { products } from '../data'
 
 export default function Home() {
@@ -45,6 +46,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Showcase Banner */}
+      <ShowcaseBanner />
 
       {/* About */}
       <section id="about" className="py-16 bg-white">
