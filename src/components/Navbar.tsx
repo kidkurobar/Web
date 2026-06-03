@@ -9,6 +9,7 @@ export default function Navbar() {
   const links = [
     { href: '/#about', label: 'เกี่ยวกับเรา' },
     { href: '/products', label: 'สินค้า' },
+    { href: '/showcase', label: 'ผลงาน' },
     { href: '/process', label: 'ขั้นตอน' },
     { href: '/contact', label: 'ติดต่อ' },
   ]
