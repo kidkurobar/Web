@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-[#F5F5F5] min-h-[calc(100vh-64px)] flex items-center">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid md:grid-cols-2 gap-12 items-center">
+      <section className="bg-[#F5F5F5] py-16 flex items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-[#E63022] font-semibold mb-2">ยินดีต้อนรับสู่</p>
-            <h1 className="text-5xl md:text-6xl font-extrabold text-gray-900 mb-3">Sourcing8</h1>
-            <p className="text-xl font-bold text-[#F97316] mb-6">สินค้าพิมพ์โลโก้แบรนด์ ขั้นต่ำน้อย เริ่มต้นที่ 50 ชิ้น</p>
-            <p className="text-gray-600 leading-relaxed mb-8 max-w-md">
+            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-3">Sourcing8</h1>
+            <p className="text-lg font-bold text-[#F97316] mb-4">สินค้าพิมพ์โลโก้แบรนด์ ขั้นต่ำน้อย เริ่มต้นที่ 50 ชิ้น</p>
+            <p className="text-gray-600 leading-relaxed mb-6 max-w-md">
               ต้องการสินค้าพิมพ์โลโก้ที่มีคุณภาพ แต่ไม่อยากสั่งจำนวนมาก?
               เรามีคำตอบให้คุณ เราผลิตสินค้าพรีเมียมตั้งแต่จำนวนน้อย
               พร้อมมาตรฐานคุณภาพสูงและบริการจากผู้เชี่ยวชาญ
@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-white rounded-2xl shadow-md overflow-hidden aspect-square">
+            <div className="bg-white rounded-2xl shadow-md overflow-hidden aspect-[4/3]">
               <img
                 src="/images/hero-merchandise-showcase.png"
                 alt="Sourcing8 Products"
@@ -40,15 +40,11 @@ export default function Home() {
                 }}
               />
             </div>
-            {/* Decorative */}
-            <div className="absolute -z-10 -bottom-4 -right-4 w-40 h-40 rounded-full bg-[#F97316]/10" />
-            <div className="absolute -z-10 -top-4 -left-4 w-24 h-24 rounded-full bg-[#E63022]/10" />
+            <div className="absolute -z-10 -bottom-4 -right-4 w-32 h-32 rounded-full bg-[#F97316]/10" />
+            <div className="absolute -z-10 -top-4 -left-4 w-20 h-20 rounded-full bg-[#E63022]/10" />
           </div>
         </div>
       </section>
-
-      {/* Showcase Banner */}
-      <ShowcaseBanner />
 
       {/* About */}
       <section id="about" className="py-16 bg-white">
@@ -88,7 +84,8 @@ export default function Home() {
         </div>
       </section>
 
-      <ContactSection />
+      {/* Showcase Banner */}
+      <ShowcaseBanner />
     </>
   )
 }
