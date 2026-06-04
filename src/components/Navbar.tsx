@@ -7,7 +7,7 @@ export default function Navbar() {
   const [location] = useLocation()
 
   const links = [
-    { href: '/#about', label: 'เกี่ยวกับเรา' },
+    { href: '/about', label: 'เกี่ยวกับเรา' },
     { href: '/products', label: 'สินค้า' },
     { href: '/showcase', label: 'ผลงาน' },
     { href: '/process', label: 'ขั้นตอน' },
