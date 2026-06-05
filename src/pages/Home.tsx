@@ -86,9 +86,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Showcase Banner */}
-      <ShowcaseBanner />
-
       {/* Social Proof */}
       <SocialProof />
 
