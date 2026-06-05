@@ -67,7 +67,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     id: '4',
-    client: 'SE-ED',
+    client: 'ซีเอ็ด',
     industry: 'Book',
     product: 'การ์ด NFC พิมพ์โลโก้',
     quantity: 'เราผลิตไปแล้วมากกว่า 10,000 ใบ',
