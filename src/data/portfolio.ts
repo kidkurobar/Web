@@ -20,7 +20,7 @@ export interface SocialProofStat {
 // Stats — แก้ตัวเลขตามข้อมูลจริง
 export const socialProofStats: SocialProofStat[] = [
   {
-    value: '20+',
+    value: '50+',
     label: 'ลูกค้าที่ไว้วางใจ',
     desc: 'ทั้งองค์กร SME และ Event Organizer',
   },
