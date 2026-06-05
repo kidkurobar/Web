@@ -34,7 +34,7 @@ export default function SocialProof() {
 
         {/* Portfolio Grid */}
         <div className="grid grid-cols-3 gap-3 mb-10">
-          {portfolioItems.map((item) => (
+          {portfolioItems.slice(0, 6).map((item) => (
             <div
               key={item.id}
               className="group relative bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
