@@ -9,8 +9,8 @@ export default function SoftCTA() {
           เริ่มต้นง่ายๆ ไม่มีข้อผูกมัด
         </h2>
         <p className="text-gray-500 mb-8">
-          ไม่ต้องรู้ทุกอย่างก่อนทัก ทีมเราพร้อมช่วยตั้งแต่เลือกสินค้า
-          ประเมินราคา ไปจนถึงดูตัวอย่างจริงก่อนตัดสินใจ
+       ทีมของเราพร้อมช่วยเหลือตั้งแต่เลือกสินค้า
+          ประเมินราคา ไปจนถึงเจรจาผลิตสินค้าตัวอย่างก่อนตัดสินใจ
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
@@ -20,7 +20,7 @@ export default function SoftCTA() {
             className="flex items-center justify-center gap-2 bg-[#E63022] text-white rounded-full px-6 py-3 font-semibold hover:bg-red-700 transition-colors"
           >
             <Package size={18} />
-            ขอดูตัวอย่างสินค้า
+            ขอดูแคตตาล็อกสินค้า
           </a>
           <a
             href="https://line.me/ti/p/@389xbjxh"
