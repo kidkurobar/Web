@@ -33,13 +33,13 @@ export default function SocialProof() {
         </div>
 
         {/* Portfolio Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+        <div className="grid grid-cols-3 gap-3 mb-10">
           {portfolioItems.map((item) => (
             <div
               key={item.id}
-              className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+              className="group relative bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="aspect-square overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={item.image}
                   alt={`${item.product} - ${item.client}`}
@@ -52,9 +52,9 @@ export default function SocialProof() {
                   {item.tag}
                 </span>
               </div>
-              <div className="p-4">
-                <p className="font-semibold text-gray-900 text-sm">{item.product}</p>
-                <p className="text-gray-400 text-xs mt-0.5">{item.client} · {item.quantity}</p>
+              <div className="p-3">
+<p className="font-semibold text-gray-900 text-xs">{item.product}</p>
+<p className="text-gray-400 text-xs mt-0.5 truncate">{item.client} · {item.quantity}</p>
               </div>
             </div>
           ))}
