@@ -40,7 +40,7 @@ export const socialProofStats: SocialProofStat[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     id: '1',
-    client: 'ซีเอ็ด',
+    client: 'SE-ED ซีเอ็ด',
     industry: 'Book',
     product: 'การ์ด NFC พิมพ์โลโก้',
     quantity: 'เราผลิตไปแล้วมากกว่า 10,000 ใบ',
