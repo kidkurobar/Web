@@ -3,6 +3,8 @@ import { ShieldCheck, Zap, Clock } from 'lucide-react'
 import ProductCard from '../components/ProductCard'
 import ContactSection from '../components/ContactSection'
 import ShowcaseBanner from '../components/ShowcaseBanner'
+import SocialProof from '../components/SocialProof'
+import SoftCTA from '../components/SoftCTA'
 import { products } from '../data'
 
 export default function Home() {
@@ -86,6 +88,14 @@ export default function Home() {
 
       {/* Showcase Banner */}
       <ShowcaseBanner />
+
+      {/* Social Proof */}
+      <SocialProof />
+
+      {/* Soft CTA */}
+      <SoftCTA />
+
+      <ContactSection />
     </>
   )
 }
