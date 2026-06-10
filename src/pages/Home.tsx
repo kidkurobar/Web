@@ -7,8 +7,15 @@ import SocialProof from '../components/SocialProof'
 import SoftCTA from '../components/SoftCTA'
 import FAQ from '../components/FAQ'
 import { products } from '../data'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Home() {
+  usePageMeta({
+    title: 'รับผลิตสินค้าพิมพ์โลโก้ ของขวัญองค์กร MOQ น้อย | Sourcing8',
+    description: 'รับผลิตสินค้าพิมพ์โลโก้พรีเมียม ถุงสปันบอนด์ แก้วน้ำ ปากกา การ์ด NFC สั่งขั้นต่ำน้อย จัดส่งไว ปรึกษาฟรี',
+    path: '/',
+  })
+
   return (
     <>
       {/* Hero */}

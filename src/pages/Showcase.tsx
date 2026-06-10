@@ -1,7 +1,14 @@
 import { showcaseItems } from '../data/showcase'
 import ContactSection from '../components/ContactSection'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Showcase() {
+  usePageMeta({
+    title: 'ผลงานที่ผ่านมา — สินค้าพิมพ์โลโก้ | Sourcing8',
+    description: 'ตัวอย่างผลงานสินค้าพิมพ์โลโก้ที่ Sourcing8 ผลิตให้ลูกค้าองค์กรและงาน Event ทั่วประเทศ',
+    path: '/showcase',
+  })
+
   return (
     <div className="bg-[#F5F5F5] min-h-screen">
       {/* Header */}

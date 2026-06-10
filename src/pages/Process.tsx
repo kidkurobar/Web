@@ -1,8 +1,15 @@
 import ContactSection from '../components/ContactSection'
 import { processSteps } from '../data'
 import { ArrowRight } from 'lucide-react'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Process() {
+  usePageMeta({
+    title: 'ขั้นตอนการสั่งผลิตสินค้าพิมพ์โลโก้ | Sourcing8',
+    description: 'ขั้นตอนสั่งผลิตของพรีเมียมพิมพ์โลโก้กับ Sourcing8 — เลือกสินค้า ส่งแบบ ยืนยัน ผลิต จัดส่งถึงมือ',
+    path: '/process',
+  })
+
   return (
     <div className="bg-[#F5F5F5] min-h-screen">
       <section className="py-16">

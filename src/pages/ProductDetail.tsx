@@ -2,10 +2,19 @@ import { Link, useParams } from 'wouter'
 import { ArrowLeft, MessageCircle, Package, Phone } from 'lucide-react'
 import ContactSection from '../components/ContactSection'
 import { products } from '../data'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function ProductDetail() {
   const { slug } = useParams()
   const product = products.find((p) => p.slug === slug)
+
+  usePageMeta({
+    title: product
+      ? `${product.pageTitle || product.name + 'พิมพ์โลโก้ ขั้นต่ำน้อย ราคาโรงงาน'} | Sourcing8`
+      : 'ไม่พบสินค้า | Sourcing8',
+    description: product?.shortDesc || 'ไม่พบสินค้าที่คุณต้องการ',
+    path: `/products/${slug}`,
+  })
 
   if (!product) {
     return (

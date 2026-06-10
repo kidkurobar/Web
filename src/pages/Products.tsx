@@ -1,7 +1,14 @@
 import ProductCard from '../components/ProductCard'
 import { products } from '../data'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Products() {
+  usePageMeta({
+    title: 'สินค้าพิมพ์โลโก้ทั้งหมด ขั้นต่ำน้อย ราคาโรงงาน | Sourcing8',
+    description: 'รวมสินค้าพรีเมียมพิมพ์โลโก้ ถุงสปันบอนด์ กระบอกน้ำ ปากกา ถุงกระดาษ การ์ด NFC สั่งขั้นต่ำน้อย ราคาโรงงาน',
+    path: '/products',
+  })
+
   return (
     <div className="bg-[#F5F5F5] min-h-screen py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

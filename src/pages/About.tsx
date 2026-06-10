@@ -1,7 +1,14 @@
 import { Link } from 'wouter'
 import ContactSection from '../components/ContactSection'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function About() {
+  usePageMeta({
+    title: 'เกี่ยวกับเรา — รับผลิตของพรีเมียมพิมพ์โลโก้ | Sourcing8',
+    description: 'Sourcing8 รับผลิตของพรีเมียมพิมพ์โลโก้สำหรับองค์กรและงาน Event สั่งขั้นต่ำน้อย จัดส่งทั่วไทย',
+    path: '/about',
+  })
+
   return (
     <>
       {/* Schema Markup */}

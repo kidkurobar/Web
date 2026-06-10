@@ -1,6 +1,13 @@
 import { MessageCircle, Phone, Mail } from 'lucide-react'
+import usePageMeta from '../hooks/usePageMeta'
 
 export default function Contact() {
+  usePageMeta({
+    title: 'ติดต่อเรา — ขอใบเสนอราคาสินค้าพิมพ์โลโก้ | Sourcing8',
+    description: 'ติดต่อ Sourcing8 ขอใบเสนอราคาสินค้าพิมพ์โลโก้ โทร 090-6926642 หรือ LINE @389xbjxh ปรึกษาฟรี',
+    path: '/contact',
+  })
+
   return (
     <div className="min-h-screen bg-[#F5F5F5] relative overflow-hidden">
       <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-[#E63022]/10 -translate-y-1/2 translate-x-1/2" />
