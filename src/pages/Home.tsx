@@ -5,6 +5,7 @@ import ContactSection from '../components/ContactSection'
 import ShowcaseBanner from '../components/ShowcaseBanner'
 import SocialProof from '../components/SocialProof'
 import SoftCTA from '../components/SoftCTA'
+import FAQ from '../components/FAQ'
 import { products } from '../data'
 
 export default function Home() {
@@ -91,6 +92,9 @@ export default function Home() {
 
       {/* Soft CTA */}
       <SoftCTA />
+
+      {/* FAQ */}
+      <FAQ />
 
       <ContactSection />
     </>
