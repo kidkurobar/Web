@@ -10,6 +10,7 @@ import Process from './pages/Process'
 import Contact from './pages/Contact'
 import Showcase from './pages/Showcase'
 import SoraLanding from './pages/SoraLanding'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/showcase" component={Showcase} />
           <Route path="/sora" component={SoraLanding} />
+          <Route component={NotFound} />
         </Switch>
       </main>
       <Footer />
