@@ -1,4 +1,5 @@
 import { Route, Switch } from 'wouter'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ScrollToTop from './components/ScrollToTop'
@@ -16,6 +17,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <ScrollToTop />
+      <Analytics />
       <Navbar />
       <main className="flex-1">
         <Switch>
