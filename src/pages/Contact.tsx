@@ -57,7 +57,7 @@ export default function Contact() {
             <Mail size={18} className="text-[#E63022]" />
             <span className="text-gray-500 text-sm font-semibold uppercase tracking-wide">EMAIL</span>
           </div>
-          <p className="text-gray-700 text-sm pl-7">sourcing8.in.th@gmail.com</p>
+          <p className="text-gray-700 text-sm pl-7">Sale@sourcing8.in.th</p>
         </div>
       </div>
 
