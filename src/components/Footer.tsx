@@ -41,7 +41,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={14} />
-                <span>sourcing8.in.th@gmail.com</span>
+                <span>Sale@sourcing8.in.th</span>
               </li>
             </ul>
           </div>
